@@ -28,7 +28,7 @@ class _SplesmentState extends State<Splesment> {
     return Scaffold(
       body: TextButton(onPressed: (){
         FutureBuilder(future: awert(),builder: (context, snapshot) => CircularProgressIndicator(),);
-      },child: Text("runing"),)
+      },child: Text("Runing time"),)
     );
   }
   Future awert()async{

@@ -12,7 +12,7 @@ class _HomescreenState extends State<Homescreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text("Home file"),
+        child: Text("Home Screen"),
       ),
     );
   }
