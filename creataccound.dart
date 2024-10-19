@@ -34,7 +34,7 @@ class _logincreeatState extends State<logincreeat> {
               'Walcome Me !',
               style: TextStyle(
                 fontWeight: FontWeight.bold,
-                fontSize: 20,
+                fontSize: 22,
               ),
             ),
             buildTextFormField(userdcontroler, "Username", Icons.person,
@@ -77,7 +77,7 @@ class _logincreeatState extends State<logincreeat> {
               ],
             ),
         Container(
-          margin: EdgeInsets.only(top: 25),
+          margin: EdgeInsets.only(top: 24),
           child: Image.asset(
                   'assets/shape9.png',
                 ),
@@ -107,7 +107,7 @@ class _logincreeatState extends State<logincreeat> {
         keyboardType: number,
         style: TextStyle(
           fontSize: 16,
-          color: Colors.black54,
+          color: Colors.green,
           fontWeight: FontWeight.w900,
         ),
         decoration: InputDecoration(
